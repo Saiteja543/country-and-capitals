@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+
+.capitals-container {
+  width: 90%;
+  max-width: 600px;
+  border: none;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+}
+.dropdown-container {
+  display: flex;
+  padding-left: 15px;
+}
+
+.drop-down-list {
+  height: 25px;
+  width: 100px;
+  padding-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .drop-down-list {
+    height: 50px;
+    width: 150px;
+  }
+}
+
+.label-name {
+  margin-left: 15px;
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .label-name {
+    font-size: 18px;
+  }
+}
+
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 18px;
+  }
+}
+
+.country-name {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  align-self: flex-start;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .country-name {
+    font-size: 35px;
+    padding-left: 80px;
+  }
+}
